@@ -1,0 +1,29 @@
+li{
+    list-style: none;
+}
+.Nav-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: brown;
+    text-align: center;
+    height: 80px;
+}
+.brand-logo{
+    padding-top: 19px;
+    font-size: 28px;
+    font-weight: 500;
+}
+.right{
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    padding-top: 25px;
+}
+.btn{
+    background-color: rgb(237, 128, 128);
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+}
