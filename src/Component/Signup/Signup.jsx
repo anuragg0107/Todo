@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import "./Signup.css"
 import { createUserWithEmailAndPassword,updateProfile } from 'firebase/auth';
-import {Button,Input,Box,Heading, useToast} from "@chakra-ui/react";
+import {Input,Box,Heading, useToast} from "@chakra-ui/react";
 import Navbar from '../Navbar/Navbar';
 import { auth } from '../../firebase';
-import { Navigate, useNavigate } from 'react-router-dom';
-// import { async } from '@firebase/util';
+import {  useNavigate } from 'react-router-dom';
+
 const Signup = () => {
   const navigate=useNavigate()
   const toast=useToast()
