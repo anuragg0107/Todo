@@ -12,6 +12,7 @@ const Login = () => {
   const [submitBtn,setSubmitBtn]=useState(false)
   const [email,setEmail]=useState('')
   const [password,setPassword]=useState('')
+  
   const handleSubmit=(e)=>{
     e.preventDefault()
     console.log(email,password)

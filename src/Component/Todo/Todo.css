@@ -1,0 +1,63 @@
+.center-div{
+   margin-top: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.center-data{
+    position: relative;
+    width: 100%;
+    background-color: brown;
+    border-radius: 10px;
+    height: 500px;
+}
+.input-data{
+    text-align: center;
+    height: 30px;
+    top: 10px;
+    border: none;
+    background:transparent ;
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 2px solid grey;
+    outline: none;
+    width: 60%;
+}
+.plus_button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: green;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+ol{
+    margin-top: 30px;
+}
+ol li{
+    padding-left: 0;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.list-data-item{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.dlt-img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
