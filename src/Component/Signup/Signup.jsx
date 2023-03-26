@@ -27,7 +27,7 @@ const Signup = () => {
       description: "We've created your account for you.",
      
     })
-    navigate('/signin')
+    navigate('/')
     console.log(user);
     console.log(res);
    })
